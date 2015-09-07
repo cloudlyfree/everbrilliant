@@ -20,7 +20,7 @@
 //
 // 
 
-package com.everbrilliant.j2se.file;
+package example.j2se.file;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

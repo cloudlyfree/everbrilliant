@@ -20,7 +20,7 @@
 //
 // 
 
-package com.everbrilliant.util;
+package example.util;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

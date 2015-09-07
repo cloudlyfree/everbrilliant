@@ -1,4 +1,4 @@
-package com.everbrilliant.j2se.file;
+package example.j2se.file;
 
 import java.io.BufferedReader;
 import java.io.File;

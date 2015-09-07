@@ -1,4 +1,4 @@
-package com.everbrilliant.swing;
+package example.swing;
 
 import java.awt.BorderLayout;
 import java.net.URL;

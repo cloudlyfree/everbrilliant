@@ -20,7 +20,7 @@
 //
 // 
 
-package com.everbrilliant.j2se.encoding;
+package example.j2se.encoding;
 
 /**
  * 转码器常量

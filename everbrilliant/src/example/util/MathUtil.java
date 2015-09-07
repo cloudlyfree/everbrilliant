@@ -1,4 +1,4 @@
-package com.everbrilliant.util;
+package example.util;
 
 import java.math.BigDecimal;
 

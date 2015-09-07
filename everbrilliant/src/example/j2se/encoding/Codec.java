@@ -20,7 +20,7 @@
 //
 // 
 
-package com.everbrilliant.j2se.encoding;
+package example.j2se.encoding;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

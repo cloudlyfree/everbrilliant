@@ -1,4 +1,4 @@
-package com.everbrilliant;
+package example;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;

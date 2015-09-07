@@ -2,7 +2,7 @@
  *  Establish date May 7, 2009 11:36:42 PM.
  *  package enterprise.celerity.framework.util.
  */
-package com.everbrilliant.j2se.file;
+package example.j2se.file;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
