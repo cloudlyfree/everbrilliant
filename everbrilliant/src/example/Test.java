@@ -24,7 +24,7 @@ import javax.crypto.SecretKey;
 
 /**
  * 
- * 测试
+ * 测试 20150907
  * @author Administrator
  *
  */
