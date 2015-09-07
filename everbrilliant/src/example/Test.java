@@ -22,7 +22,12 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.KeyGeneratorSpi;
 import javax.crypto.SecretKey;
 
-
+/**
+ * 
+ * 测试
+ * @author Administrator
+ *
+ */
 public class Test {
 
 	public static void main(String[] args) {
