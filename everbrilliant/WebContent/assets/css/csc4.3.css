@@ -1,0 +1,79 @@
+﻿/*reset*/
+.nav-tabs > li > a{outline: 0;}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+  padding: 15px;
+}
+.panel-heading {
+  padding: 8px 15px;
+  border-bottom: 1px solid transparent;
+}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.panel-title > a {
+  color: inherit;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+.panel-default {
+  border-color: #ddd;
+}
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+/**进度条上面的文字控制,2015-8-26王世通添加**/
+.bar_text_top_show{
+	position:absolute;
+	z-index:25;
+	top:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	color:#FFFFFF;
+}
+/*home*/
+.home-tabs > li > a{border-radius: 0; padding: 8px 12px; font-size: 14px; font-weight: 700;}
+.resource_summary .panel-body{text-align: center; color: #2a2a2a;}
+.resource_summary strong{display:block; margin:10px 0;font-size: 35px; font-weight: 300; line-height: 1em;}
+.resource_summary p{font-size: 14px;}
+.resource_summary p i{color: #0088cc;}
+.resource_summary a:hover{text-decoration: none;}
+.progress_block ul{margin: 0;}
+.progress_block p{margin-bottom: 5px; color: #666;}
+.progress_block .progress{margin-bottom: 10px;color: #999;}
+.notxt{text-align: center; color: #ababab;}
+.notxt b{display: block; margin-top: 30px; font-size: 14px;}
+.notxt i{display: block; margin-top: 20px; font-size: 50px;}
+.list_block ul{margin: 0;}
+.chart_block .item{padding-right: 15px; border-right: 1px dotted #ddd;}
+.chart_block .item.last{border: none;}
+.chart_block .item .title{margin-bottom: 5px;}
+.list_block2 ul{margin: 0;}
+.list_block2 ul li{border-bottom: 1px solid #eee; padding: 7px 0;}
+.table-border1{margin-bottom: 0;}
+.table-border1 td{border: none; border-bottom: 1px solid #eee;}

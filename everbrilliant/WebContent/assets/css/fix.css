@@ -1,0 +1,441 @@
+﻿@import "reset.css";
+@import "fix-parts.css";
+@import "fix-popWin.css";
+
+
+.statusLabel {
+    display: inline;
+    padding: 1px 4px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+/*--------------------tree start----------------*/
+
+.f.treeContainer.fix-span3 {
+    width: 271px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.f.mainContent.fix-span9 {
+    width: 830px;
+    margin-left: 15px;
+}
+
+.tree a {
+    display: inline-block;
+    width: 135px;
+    overflow:hidden;
+    white-space:nowrap;
+    word-wrap: normal;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+}
+
+/*----------------tree end------------------------*/
+
+
+.fix-tableLabelImg img {
+    vertical-align: -3px;
+    padding: 0px 3px;
+}
+
+
+
+.fix-cardContainer {
+    max-width: 210px;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+    height: 135px;
+}
+
+
+.fix-row-fluid {
+    width: 100%;
+}
+
+.fix-row-fluid:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.fix-bfc {
+    overflow: hidden;
+    *zoom: 1;
+    margin-left:0;
+}
+
+.fix-card {
+    background: url("../img/blue/card_form_bg.png") no-repeat scroll center center transparent;
+    width: 30%;
+    min-width: 240px;
+    margin-right: 2%;
+    padding: 20px 0px;
+    float: left;
+}
+
+.fix-card:hover{
+    background: url("../img/blue/card_form_bg_hover.png") no-repeat scroll center center transparent;
+}
+
+ul.fix-text {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.fix-text span, .fix-text li, .fix-text li *{
+
+    overflow:hidden;
+    word-wrap: normal;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+
+}
+
+
+.fix-pullLeft {
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 22px;
+    overflow:hidden;
+    word-wrap: normal;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+}
+
+.fix-media-heading {
+    display: inline;
+}
+
+.fix-textCenter {
+    text-align: center;
+}
+
+.ip_container.fix-ipContainerDisabled {
+    background-color: #eee;
+}
+
+div.fix-ipContainerDisabled {
+    background-color: #eee;
+}
+
+.fix-ipContainerDisabled input {
+    padding-left:5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+label.checkbox input[type=checkbox].fix-checkbox {
+    float: none \9;
+    vertical-align: -2px \9;
+}
+
+label.checkbox input[type=checkbox]:focus {
+    outline: none;
+}
+
+.navbar-search .fix-search-query {
+    padding: 4px 14px;
+    margin-bottom: 0;
+    font-family: "Microsoft YaHei", "微软雅黑" ,"Microsoft JhengHei", "华文细黑", "宋体", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    background-color: rgb(81, 81, 81);
+    border: none;
+    color: white;
+}
+
+input.fix-search-query {
+
+    padding-right: 14px;
+    padding-right: 4px \9;
+    padding-left: 14px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.navbar-inverse .navbar-search .fix-search-query:focus,
+.navbar-inverse .navbar-search .fix-search-query.focused {
+    padding: 5px 14px;
+    color: #333333;
+    text-shadow: 0 1px 0 #ffffff;
+    background-color: #ffffff;
+    border: none;
+    outline: 0;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*-------------------fileListPopup--------------*/
+
+.f-topBtn {
+    display: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    background-color: #000000;
+    background-image:url('../img/icons/otherBtn1.png');
+    background-position: -45px -114px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.f-taskTriggerContainer {
+    position: fixed;
+    top: 200px;
+    z-index: 1000;
+}
+
+.f-taskTriggerInner {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    background-color: transparent;
+    background-image:url('../img/icons/otherBtn1.png');
+    background-position: -1px -76px;
+}
+
+.f-taskTriggerInner:hover {
+    background-position: -45px -76px;
+}
+
+
+
+.f-taskTriggerInner:hover .f-taskListPopupContainer {
+    display: block;
+}
+
+.f-taskListPopupContainer:hover {
+    display: block;
+}
+
+.f-taskListPopupContainer {
+    position:absolute;
+    top:0;
+    left: -655px;
+    padding-right: 20px;
+    display: none;
+}
+
+.f-taskListPopupContainer:hover {
+    cursor: default;
+}
+
+.f-taskListPopup {
+    padding-top:0px;
+    border:1px solid #949494;
+    background-color:lightgray;
+    background-image:url('../img/layout/content/toolbar/popup-header.png');
+    width:652px;
+    overflow: auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    border-radius:3px;
+}
+
+.f-taskListPopup h3 {
+    margin: 0;
+    text-align: left;
+    padding:4px 4px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.75);
+    border-radius:3px 3px 0 0;
+    overflow: hidden;
+}
+
+.f-taskListPopup .taskBarTitle {
+    float: left;
+    padding:2px 15px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.f-taskListPopup .clearTaskBtn {
+    float: right;
+    padding:2px 5px;
+    border: 1px solid gray;
+    height: 20px;
+    cursor: pointer;
+    background-color: #050505;
+    background-image: url(../img/background/dark-grey-tile.png);
+    font-size: 12px;
+    line-height: 20px;
+    color: #eee;
+    border-radius: 5px;
+}
+
+.fix-warningPopup h3 {
+    padding:10px 0;
+    margin: 0;
+    line-height: 14px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.75);
+    background:url('../img/layout/content/toolbar/popup-header.png');
+    border-radius:3px 3px 0 0;
+    text-align:center
+}
+
+/*
+.fix-fileListPopup:after {
+    display:block;
+    position:absolute;
+    width:28px;
+    height:13px;
+    top:-12px;
+    right:22%;
+    margin-right:-14px;
+    content:' ';
+    background:url('../img/layout/content/toolbar/popup-arrow.png')
+}*/
+
+.fix-warningPopup:after {
+    display:block;
+    position:absolute;
+    width:28px;
+    height:13px;
+    top:-12px;
+    right:48%;
+    margin-right:-14px;
+    content:' ';
+    background:url('../img/layout/content/toolbar/popup-arrow.png')
+}
+
+.f-taskListPopup .content {
+    margin: 0px;
+    background-color: #fff;
+    border:1px solid #99a7bc;
+    height: 300px;
+    overflow-y:scroll;
+    border-radius:3px;
+    box-shadow:inset 0 0 5px #becbdf;
+    *position: relative;
+}
+
+.fix-warningPopup .content {
+    margin:5px;
+    margin-top:0;
+    background:#fff;
+    border:1px solid #99a7bc;
+    border-radius:3px;
+    box-shadow:inset 0 0 5px #becbdf;
+}
+.f-taskListPopup .content table, .fix-warningPopup .content table{
+    margin-bottom: 0;
+}
+
+.fix-warningPopup {
+    position:absolute;
+    top:45px;
+    left: 8px;
+    padding-top:0px;
+    border:1px solid #949494;
+    border-radius:3px;
+    background:#cad2de;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    z-index:105;
+    width:250px;
+    display: none;
+}
+
+.f-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.f-table td, .f-table th {
+    border: 1px solid #eee;
+    padding: 4px 5px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+.f-table th {
+    color:white;
+    background-color: #2faaff;
+}
+
+
+.f-table .progressBarContainer {
+    width: 100px;
+}
+
+.f-table .progressBar {
+    position: relative;
+    display: block;
+    width: 100px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.f-table .progressTxt {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.f-table .progressStep {
+    display: block;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.f-statusLabel {
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.f-statusLabel.fail {
+    color: white;
+    background-color: red;
+
+}
+
+.f-statusLabel.notify {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.f-statusLabel.complete {
+    color: white;
+    background-color: green;
+}
+
+.f-statusLabel.error {
+    color: white;
+    background-color: black;
+}

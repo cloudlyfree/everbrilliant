@@ -1,0 +1,48 @@
+/**********全局**********/
+body {
+    font-family: "Microsoft YaHei", "微软雅黑" ,"Microsoft JhengHei", "华文细黑", "宋体", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+a{color: #0088CC;}
+.btn-link{color: #0088CC;}
+/**********皮肤图片统一加载**********/
+.box-note h3 b,.box-note h3 i,.csc_left_tabcon .nav-pills.nav-stacked > li > a,.csc_mainBox #main_tabs,.table thead th,.pagination ul > li > a:hover, .pagination ul > li > a:focus,.pagination ul > .active > a,.pagination ul > .active > a:hover, .pagination ul > .active > span{background-image:url(../img/newcsc/newcsc_sprite.png);}
+/**********头部**********/
+/*运营门户*/
+.csc_topLeftBg{background: #3b455c;}
+.csc_topRightBg{background: #8a9abc;}
+.csc_topMiddleBg{background-image: url(../img/newcsc/bg_index.png);}
+/*自助门户*/
+.csc_topLeftBg.csc_topBg_portal{background: #09508c;}
+.csc_topRightBg.csc_topBg_portal{background: #78baf2;}
+.csc_topMiddleBg.csc_topBg_portal{background-image: url(../img/newcsc/bg_portal.png);}
+/**********主导航**********/
+#tree_tabs{background-image: url(../img/newcsc/topnav_repbg.png);}
+#tree_tabbable #tree_tabs > li > a:hover{background: #5176af;}
+#tree_tabbable #tree_tabs .active a, #tree_tabbable #tree_tabs .active a:hover, #tree_tabbable #tree_tabs .active a:focus{background: #1480db;}
+/**********左菜单/**********/
+.csc_left_tabcon{background-image: url(../img/newcsc/lefttabtopbg.png);}
+.csc_left_tabcon .tab-pane{ background-image:url(../img/newcsc/lefttabbotbg.png); }
+.csc_left_tabcon .nav-pills.nav-stacked > .active > a,.csc_left_tabcon .nav-pills.nav-stacked > .active > a:hover{background-position: 0 -40px;}
+/**********右侧内容区**********/
+/*tabs导航*/
+.csc_mainBox #main_tabs{background-position: 0 -150px;border-bottom:1px solid #CDCCCC; }
+.csc_mainBox #main_tabs > li >a:hover,.csc_mainBox #main_tabs > li >a.hover{background-color: #5176af; }
+.csc_mainBox #main_tabs > .active > a,.csc_mainBox #main_tabs > .active > a:hover,.csc_mainBox #main_tabs > .active > a:focus{ background-position: 0 -190px;}
+/*表格标题*/
+.table thead th{background-position: 0 -270px;color: #000;}
+/*分页*/
+.pagination ul > li > a:hover{border-color:#d0d0d0; background: #ececec;}
+.pagination ul > .prev a:hover,.pagination ul > .next a:hover{border-color:#d0d0d0; background: #ececec; }
+.pagination ul > .active > a,.pagination ul > .active > a:hover, .pagination ul > .active > span{background-position: -20px -300px; color: #fff;}
+/*详情块标题*/
+.box-note h3 b{background-position: 0 -540px;}
+.box-note h3 i{background-position: -244px -540px;}
+/*进度条底色*/
+.progress .progressbar-back-text{background: #ddd;}
+/**********首页通知告警信息**********/
+.mydash_txt i{color: #FF0000;}
+

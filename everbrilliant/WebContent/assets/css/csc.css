@@ -1,0 +1,118 @@
+/*表格顶部对齐*/
+.simple_form_table .valueField{vertical-align: text-top;}
+/*右侧主块*/
+.row-fluid .csc_mainBox{float: right;margin-left: 0;}
+/*左菜单操作按钮*/
+.csc_leftMenu_btns {width: 257px; height: 24px;margin:0px 0 6px -20px; padding-right: 12px;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background: #f0f0F5;  line-height: 24px;  }
+.csc_leftMenu_btns a,.csc_leftMenu_btns a:hover{margin-left: 6px;text-decoration: none;}
+[class^="csc_icon"], [class*=" csc_icon_"]{background: url("../img/folder_icon.gif") no-repeat 0 0; display: inline-block; height: 15px; line-height: 15px; vertical-align: text-top; width: 16px; }
+.csc_icon_edit{background-position: 0 -18px;}
+.csc_icon_delete{background-position: 0 -35px;}
+.csc_leftMenu_btns .icon-white{border: 1px solid #0b86ee;background-color: #9fcaff; }
+/*csc标题块*/
+.csc_tit{height: 30px; margin-bottom: 12px; padding: 0 16px; background: #F5F5F5;line-height: 30px;}
+.csc_tit h3{height: 30px; margin: 0;  font-size: 16px;line-height: 30px;}
+#main_content .csc_tit .csc_tit_btns,#main_content .csc_tit .csc_tit_btns2{float: right;}
+.csc_tit_btns a,.csc_tit_btns a[disable]{margin-left: 6px;color:#000;background: none;}
+.csc_tit_btns a:hover,.csc_tit_btns a[disable]:hover{text-decoration: none;}
+.csc_tit_btns .disable{color:#aaa;cursor: default;}
+.csc_tit_btns i{border: 1px solid #1FA5F6;background-color: #2FAAFF;}
+.csc_tit_btns .disable i{ border-color: #aaa; background-color: #bbb;}
+/*csc内容块*/
+.csc_txt{padding: 0 16px 20px;}
+.tab-pane .csc_txt{padding: 0 0 20px;}
+.csc_popForm .csc_txt{padding: 0;}
+.csc_txt .table{margin-bottom: 10px;}
+.csc_txt tbody th{background: #c1e6ff;}
+.csc_txt .csc_subTable{margin-bottom: 0;}
+.csc_txt .control-label{width: 170px;}
+.csc_txt .controls{*margin-left: -20px;}
+.csc_txt .btn-small{font-size: 12px;}
+.controls select{margin:3px 0 0 0\9;*margin:4px 0 0 -20px;height: 22px\9;}
+:root .controls select{margin:0\9;height: 32px\9;}
+/*表单提示*/
+#topOfPage .help-inline,#topOfPage .require{color:#de0000;vertical-align: top;height: 32px;line-height: 32px;padding-top: 0;}
+#topOfPage .edit_info_icon .require {vertical-align: middle;}
+.csc_info .help-inline{color:#415fc1;}
+/*小标题、小提示*/
+.csc_txt h5{color:#000;font-size: 14px;}
+.csc_txt h5 b{padding-left: 12px; color:#415fc1; }
+.csc_notice .help-inline{padding: 2px 5px 0 0;color:#de0000;}
+.csc_aAfter{display: inline-block; height: 14px; margin-right: -5px; padding: 2px;line-height: 14px;vertical-align: middle; }
+.csc_aAfterBgcolor{margin-left: 5px;}
+.csc_aAfterBgcolor i{border: 1px solid #ba0000;background-color: #DE0000;}
+.csc_aAfterRadius i{border-radius: 8px;}
+/*创建服务tabs*/
+.csc_tabsBtns{padding-top: 10px;  }
+.csc_tabsBtns li{float: left;}
+.csc_tabsBtns li a{background-color:#ededed; color:#000;}
+.csc_tabsBtns li a:hover{background-color: #ceefff;}
+.csc_tabsBoxs{ padding: 20px 0 0 6px;}
+.csc_dateBox .csc_daterange .add-on{*margin-left: -20px;}
+.csc_dateBox .csc_daterange .help-inline{font-size: 12px; letter-spacing: 0;}
+#tree_cscTabs #sev_baseinfo{padding: 0;}
+/*生效、失效日期盒子*/
+.csc_dateBox {height: 30px;}
+.csc_formBtns{ margin-top: 10px; padding: 20px 10px 10px 0;border-top: 1px solid #ddd; }
+/*选项框*/
+.csc_selBox{padding-bottom: 10px;}
+.csc_selBox select{margin-left: 0;}
+/*功能块*/
+.csc_shopsBox {padding: 5px 0; border-bottom: 1px solid #ddd;}
+.csc_shopsBox .control-label {width: 75px; }
+.csc_shopsBox .controls{margin-left: 75px;*margin-left: -20px;}
+.csc_shopsBox input{width: 120px;}
+.csc_shopsBox .control-group{float: left;}
+.csc_group_btns{margin:2px 0 8px 10px;display: inline-block; vertical-align: top;}
+.csc_shopsBox .csc_group_btns2{float: right; margin-right: 37px;}
+.csc_shopsBox .csc_group_btns3{float: right;}
+.csc_group_medium .control-label{width: 150px;}
+.csc_group_medium .controls{margin-left:150px;*margin-left: -20px;}
+.csc_group_small .control-label{width: 95px;}
+.csc_group_small .controls,.modal-body .csc_group_small .controls{margin-left:0;*margin-left: -10px; float: left;}
+.csc_shopBox_mb{margin-bottom: 12px;}
+/*常用操作*/
+.csc_opeBox {padding: 0 0 10px;}
+.csc_opeBox a{ display: inline-block; margin: -1px 5px 0 0; vertical-align: middle;}
+/*弹出框*/
+.csc_popForm .control-label{width: 170px;}
+.csc_popForm .controls{*margin-left: -20px;}
+.csc_popForm .btn-small{font-size: 12px;}
+.csc_inlineRadChk label{margin: 0 20px;}
+/*其它微调*/
+.selector-chosen .right{float: none;}
+.csc_shopsBox_orderPage select{width: 120px;*margin:5px 0 0 -20px;}
+.csc_shopsBox_searchPage input{width: 100px;}
+.treeBoxWithBtn .csc_leftMenu_btns{ background: none; border: none; float: right; margin: -29px 0 0; width: 120px;}
+.modal-body textarea{word-break:break-all;}
+/*结束预览*/
+.nav-tabs .csc_endPreview,.nav-tabs .csc_returnBtn{float: right;margin-right: 16px;}
+/*订单详情－流程日志*/
+.csc_flowBox{margin-top: 20px;}
+/*csc右顶部功能背景*/
+.csc_right_panel{width: 600px;background: url(../img/blue/top_right_panel2.png) no-repeat center center;}
+.top_right_icon1 span{left:47px;}
+.csc_top_right_icon6 {background-image: url("../img/blue/top_right_icon6.png"); }
+.csc_top_right_icon6 span{left: 70px;}
+.csc_top_right_icon7 {background-image: url("../img/blue/top_right_icon7.png"); }
+.csc_top_right_icon9 {background-image: url("../img/blue/top_right_icon9.png"); }
+/*右顶部下拉*/
+.csc_dropdown{display: inline; position: relative; zoom:1;}
+.csc_dropdown .dropdown-menu{ left: -32px; top:29px; padding: 7px 0;}
+.csc_dropdown .dropdown-menu> li > a{margin: 0;}
+.csc_dropdown .dropdown-menu> .active > a{background-color: #fff; color: #000;}
+.csc_dropdown .dropdown-menu> .active > a:hover{ background-color: #0081C2; color: #FFFFFF; text-decoration: none;}
+.csc_dropdown .dropdown-menu i{float: right; height: 16px; line-height: 16px; margin-top: 2px; padding: 0 3px; background-color: #fff; color:#f00; font-weight: bold; font-style: normal; }
+.csc_dropdown a{color: #fff; text-decoration: none;}
+#noticePopup,#warningPopup{left:-79px;top:40px;}
+/*IE7/IE8编辑框*/
+.cke_skin_BootstrapCK-Skin{*margin-left: -20px;}
+/*刷新*/
+.csc_F5{float: right;margin-top: 9px;}
+.csc_F5 i{margin-right: 5px;}
+.icon-blueBg{background-color: #2FAAFF; border: 1px solid #1FA5F6;}
+/**/
+.valueField a{margin-right:5px;}
+.csc_left_tabcon .ztree{padding:5px 0 16px 13px; left: 0; float: left;}
+.csc_left_tabcon .ztree li span.button{margin-right:3px;}
+.csc_left_tabcon .ztree li span.switch{margin-right:0;}

@@ -1,0 +1,38 @@
+.textCenter {
+    text-align: center;
+}
+
+.p_rel {
+    position: relative;
+}
+
+.p_abs {
+    position: absolute;
+}
+
+
+.b_r {
+    border-radius: 4px;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+.left {float: left;}
+.right {float: right;}
+
+.clear {clear: both;}
